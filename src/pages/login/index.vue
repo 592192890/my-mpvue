@@ -75,7 +75,7 @@ export default {
         // var baseAuth="Basic "+Base64.encode('1111:'+tokenId);
         //request
         var obj={
-          url:'https://www.baidu.com',
+          url:store.state.apiUrl.smsLoginUrl,
           data:{
             mobile:this.phone
           },

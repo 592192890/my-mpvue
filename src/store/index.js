@@ -41,6 +41,52 @@ const store = new Vuex.Store({
     },
     appGlobalData: {
     },
+    orderList:[
+      {
+        id:1,
+        shopName:'金星店',
+        createTime:'2017/03/21',
+        orderId:'11111111',
+        name:'大号购物袋',
+        productNum:2,
+        payAmount:12,
+        orderType:0,
+        orderStatus:'finish'
+      },
+      {
+        id:1,
+        shopName:'红星店',
+        createTime:'2018/03/21',
+        orderId:'222222',
+        name:'小号购物袋',
+        productNum:1,
+        payAmount:24,
+        orderType:0,
+        orderStatus:'finish'
+      },
+      {
+        id:2,
+        shopName:'南国店',
+        createTime:'2018/03/21',
+        orderId:'222222',
+        name:'小号购物袋',
+        productNum:1,
+        payAmount:24,
+        orderType:0,
+        orderStatus:'finish'
+      },
+      {
+        id:3,
+        shopName:'鹤山店',
+        createTime:'2018/03/21',
+        orderId:'222222',
+        name:'小号购物袋',
+        productNum:1,
+        payAmount:24,
+        orderType:0,
+        orderStatus:'finish'
+      }
+    ],
     maxSku:4,
     packages:{
       small:{

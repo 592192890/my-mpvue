@@ -106,7 +106,7 @@ export default {
         goOrder(e){
             // type:1-->all order; 2--->unpay order;3--->uncheck  order
             var type=e.currentTarget.dataset.id;
-            this.$router.push({path:'/pages/order/order',query:{type:type}})
+            this.$router.push({path:'/pages/order/main',query:{type:type}})
         },
         goIdentifyCode(e){
             this.$router.push({path:'/pages/identify-code/main'})
@@ -125,7 +125,7 @@ export default {
             var url = 'https://wx.yunhou.com/super/member/tickets';
             var encodeUrl = encodeURIComponent(url)
             wx.navigateTo({
-            url: '../web/web?url=' + encodeUrl,
+                url: '../web/web?url=' + encodeUrl,
             })
         },
 
